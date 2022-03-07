@@ -1,9 +1,9 @@
 let distancia = 0
 basic.forever(function () {
     distancia = maqueen.Ultrasonic(PingUnit.Centimeters)
-    if (distancia < 15) {
+    if (distancia < 30) {
         basic.showString("" + (distancia))
-        if (distancia < 6) {
+        if (distancia < 10) {
             basic.showString("" + (distancia))
             maqueen.motorStop(maqueen.Motors.All)
             basic.pause(5000)
