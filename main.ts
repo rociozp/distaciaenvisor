@@ -16,6 +16,6 @@ basic.forever(function () {
             # . # . #
             # # # # #
             `)
-        maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 40)
+        maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 20)
     }
 })

@@ -4,4 +4,4 @@
         # . # . # 
         # . # . # 
         # # # # #
-        `</field><next><block type="motor_MotorRun" id="iuBQl=g]1SkQ@I[[^SM*"><field name="index">maqueen.Motors.All</field><field name="Dir">maqueen.Dir.CW</field><value name="speed"><shadow type="math_number_minmax" id="Qo*ZHeJ,^ogbM5_m0zYE"><mutation min="0" max="255" label="Speed" precision="0"/><field name="SLIDER">40</field></shadow></value></block></next></block></statement></block></next></block></statement></block></xml>
+        `</field><next><block type="motor_MotorRun" id="}L/{Gy,YwcFW}c),XF@g"><field name="index">maqueen.Motors.All</field><field name="Dir">maqueen.Dir.CW</field><value name="speed"><shadow type="math_number_minmax" id="(I[1VkINIf|lav_nPSrq"><mutation min="0" max="255" label="Speed" precision="0"/><field name="SLIDER">20</field></shadow></value></block></next></block></statement></block></next></block></statement></block></xml>
