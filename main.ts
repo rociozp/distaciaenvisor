@@ -6,16 +6,10 @@ basic.forever(function () {
         maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 15)
         basic.pause(500)
     }
-    if (distancia < 10) {
+    if (distancia < 25) {
         basic.showString("" + (distancia))
-        maqueen.motorStop(maqueen.Motors.All)
-        basic.pause(500)
-        basic.showLeds(`
-            # # # . #
-            . . . # .
-            . . # . .
-            . # . . .
-            # # # # #
-            `)
+        maqueen.motorRun(maqueen.Motors.M1, maqueen.Dir.CW, 15)
+        maqueen.motorStop(maqueen.Motors.M2)
+        basic.pause(1000)
     }
 })
