@@ -4,7 +4,7 @@ basic.forever(function () {
     basic.showString("" + (distancia))
     if (distancia < 60) {
         maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 15)
-        basic.pause(5000)
+        basic.pause(500)
     }
     if (distancia < 10) {
         basic.showString("" + (distancia))
